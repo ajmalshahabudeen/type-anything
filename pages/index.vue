@@ -7,7 +7,7 @@
     <URange v-model="font_size" :min="0" :max="100"/>
   </div>
   <section class="flex items-center justify-center min-h-screen">
-    <p class="text-3xl" :style="{ fontSize: `${font_size}rem` }">
+    <p class="text-wrap" :style="{ fontSize: `${font_size}rem` }">
       {{ value }}
     </p>
   </section>
