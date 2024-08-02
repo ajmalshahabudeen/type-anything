@@ -1,7 +1,7 @@
 <template>
-  <section class="flex items-center w-full">
+  <section class="flex flex-col mt-10 md:mt-0 md:flex-row items-center w-full">
     <div
-      class="flex items-center px-20 py-5 w-full justify-around"
+      class="flex flex-col md:flex-row gap-10 md:gap-0 items-center px-20 py-5 w-full justify-around"
       v-if="!hidden"
     >
       <!-- <p class="text-3xl font-bold underline font-[Poppins]">
@@ -105,6 +105,8 @@ const initTyped = () => {
     return;
   }
 };
+
+
 </script>
 <!-- //-----------------------------------------------------------------Style -- -->
 <style>
