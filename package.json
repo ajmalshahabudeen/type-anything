@@ -13,8 +13,11 @@
   "dependencies": {
     "@nuxt/ui": "^2.18.3",
     "@nuxtjs/tailwindcss": "^6.12.1",
+    "@types/vue-writer": "^1.2.0",
     "nuxt": "^3.12.4",
-    "vue": "latest"
+    "typed.js": "^2.1.0",
+    "vue": "latest",
+    "vue-writer": "^2.0.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",
