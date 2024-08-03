@@ -15,3 +15,5 @@ Just fork it and open pull request.
 ```
 read the package.json and nuxt.config.ts to get the general idea of what stuff I used here
 ```
+
+Recommended to use with [Bun](https://bun.sh/)
